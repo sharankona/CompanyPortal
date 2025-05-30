@@ -1,0 +1,50 @@
+/* Minimal custom CSS to complement Bootstrap */
+
+/* Add some spacing to sections */
+section {
+    padding: 4rem 0;
+}
+
+/* Hero section styling */
+.hero-section {
+    min-height: 60vh;
+    display: flex;
+    align-items: center;
+}
+
+/* Footer styling */
+footer {
+    padding: 2rem 0;
+}
+
+/* Utility classes */
+.text-highlight {
+    color: var(--bs-info);
+}
+
+/* Team member cards */
+.team-card {
+    transition: transform 0.3s ease;
+    height: 100%;
+}
+
+.team-card:hover {
+    transform: translateY(-5px);
+}
+
+/* Contact form */
+.contact-form {
+    background-color: rgba(0, 0, 0, 0.05);
+    border-radius: 1rem;
+    padding: 2rem;
+}
+
+/* Careers listing */
+.job-card {
+    transition: all 0.2s ease;
+    border-left: 4px solid transparent;
+}
+
+.job-card:hover {
+    border-left-color: var(--bs-info);
+}

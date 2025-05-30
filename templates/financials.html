@@ -1,0 +1,284 @@
+{% extends 'base.html' %}
+
+{% block title %}Company Portal - Financials{% endblock %}
+
+{% block content %}
+<!-- Hero Section -->
+<section class="bg-dark text-light py-5">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-6">
+                <h1 class="display-4 fw-bold mb-4">Financial <span class="text-highlight">Information</span></h1>
+                <p class="lead">Key financial metrics and performance data for our stakeholders.</p>
+            </div>
+            <div class="col-lg-6 d-none d-lg-block text-center">
+                <i class="fas fa-chart-line text-success" style="font-size: 10rem; opacity: 0.7;"></i>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Financial Highlights -->
+<section class="py-5">
+    <div class="container">
+        <h2 class="fw-bold mb-4 text-center">Financial Highlights</h2>
+        
+        <div class="row g-4 mb-5">
+            {% if has_dynamic_data and financial_metrics %}
+                {% for metric in financial_metrics %}
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <div class="card-body text-center">
+                            <i class="{{ metric.icon }} text-success fa-3x mb-3"></i>
+                            <h3 class="card-title h4">{{ metric.name }}</h3>
+                            <h4 class="display-5 fw-bold mb-3">{% if "margin" in metric.name.lower() or "growth" in metric.name.lower() or "return" in metric.name.lower() %}{{ metric.value }}%{% else %}{{ metric.value }}{% endif %}</h4>
+                            <p class="card-text">{{ metric.description }}</p>
+                        </div>
+                    </div>
+                </div>
+                {% endfor %}
+            {% else %}
+                <!-- Static fallback content -->
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <div class="card-body text-center">
+                            <i class="fas fa-dollar-sign text-success fa-3x mb-3"></i>
+                            <h3 class="card-title h4">Revenue Growth</h3>
+                            <h4 class="display-5 fw-bold mb-3">24%</h4>
+                            <p class="card-text">Year-over-year revenue growth, outperforming industry average of 18%</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <div class="card-body text-center">
+                            <i class="fas fa-chart-pie text-primary fa-3x mb-3"></i>
+                            <h3 class="card-title h4">Profit Margin</h3>
+                            <h4 class="display-5 fw-bold mb-3">18.5%</h4>
+                            <p class="card-text">Strong profit margins reflecting our operational efficiency</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <div class="card-body text-center">
+                            <i class="fas fa-hand-holding-usd text-info fa-3x mb-3"></i>
+                            <h3 class="card-title h4">Return on Investment</h3>
+                            <h4 class="display-5 fw-bold mb-3">21.2%</h4>
+                            <p class="card-text">Strong returns for our investors across all business units</p>
+                        </div>
+                    </div>
+                </div>
+            {% endif %}
+        </div>
+    </div>
+</section>
+
+<!-- Financial Performance -->
+<section class="py-5 bg-light">
+    <div class="container">
+        <h2 class="fw-bold mb-4">Financial Performance</h2>
+        
+        <div class="row">
+            <div class="col-lg-6 mb-4">
+                <div class="card border-0 shadow-sm h-100">
+                    <div class="card-header bg-white border-0">
+                        <h3 class="h5 mb-0">Revenue Breakdown</h3>
+                    </div>
+                    <div class="card-body">
+                        {% if has_dynamic_data and revenue_breakdown %}
+                            {% for category in revenue_breakdown %}
+                                <div class="{% if not loop.last %}mb-4{% endif %}">
+                                    <div class="d-flex justify-content-between mb-1">
+                                        <span>{{ category.category }}</span>
+                                        <span class="fw-bold">{{ category.percentage }}%</span>
+                                    </div>
+                                    <div class="progress" style="height: 10px;">
+                                        <div class="progress-bar {{ category.color_class }}" role="progressbar" 
+                                             style="width: {{ category.percentage }}%;" 
+                                             aria-valuenow="{{ category.percentage }}" 
+                                             aria-valuemin="0" 
+                                             aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                            {% endfor %}
+                        {% else %}
+                            <!-- Static fallback content -->
+                            <div class="mb-4">
+                                <div class="d-flex justify-content-between mb-1">
+                                    <span>Product Sales</span>
+                                    <span class="fw-bold">45%</span>
+                                </div>
+                                <div class="progress" style="height: 10px;">
+                                    <div class="progress-bar bg-primary" role="progressbar" style="width: 45%;" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                            <div class="mb-4">
+                                <div class="d-flex justify-content-between mb-1">
+                                    <span>Service Contracts</span>
+                                    <span class="fw-bold">30%</span>
+                                </div>
+                                <div class="progress" style="height: 10px;">
+                                    <div class="progress-bar bg-success" role="progressbar" style="width: 30%;" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                            <div class="mb-4">
+                                <div class="d-flex justify-content-between mb-1">
+                                    <span>Consulting</span>
+                                    <span class="fw-bold">15%</span>
+                                </div>
+                                <div class="progress" style="height: 10px;">
+                                    <div class="progress-bar bg-info" role="progressbar" style="width: 15%;" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="d-flex justify-content-between mb-1">
+                                    <span>Licensing</span>
+                                    <span class="fw-bold">10%</span>
+                                </div>
+                                <div class="progress" style="height: 10px;">
+                                    <div class="progress-bar bg-warning" role="progressbar" style="width: 10%;" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-lg-6 mb-4">
+                <div class="card border-0 shadow-sm h-100">
+                    <div class="card-header bg-white border-0">
+                        <h3 class="h5 mb-0">Growth Trends (Last 5 Years)</h3>
+                    </div>
+                    <div class="card-body">
+                        <div class="table-responsive">
+                            <table class="table table-hover">
+                                <thead>
+                                    <tr>
+                                        <th>Year</th>
+                                        <th>Revenue ($M)</th>
+                                        <th>Growth (%)</th>
+                                        <th>Profit ($M)</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    {% if has_dynamic_data and yearly_financials %}
+                                        {% for year_data in yearly_financials %}
+                                            <tr>
+                                                <td>{{ year_data.year }}</td>
+                                                <td>{{ year_data.revenue }}</td>
+                                                <td class="text-success">+{{ year_data.growth_percentage }}%</td>
+                                                <td>{{ year_data.profit }}</td>
+                                            </tr>
+                                        {% endfor %}
+                                    {% else %}
+                                        <!-- Static fallback content -->
+                                        <tr>
+                                            <td>2024</td>
+                                            <td>152.4</td>
+                                            <td class="text-success">+24%</td>
+                                            <td>28.2</td>
+                                        </tr>
+                                        <tr>
+                                            <td>2023</td>
+                                            <td>122.9</td>
+                                            <td class="text-success">+20%</td>
+                                            <td>22.1</td>
+                                        </tr>
+                                        <tr>
+                                            <td>2022</td>
+                                            <td>102.4</td>
+                                            <td class="text-success">+18%</td>
+                                            <td>18.4</td>
+                                        </tr>
+                                        <tr>
+                                            <td>2021</td>
+                                            <td>86.8</td>
+                                            <td class="text-success">+15%</td>
+                                            <td>15.2</td>
+                                        </tr>
+                                        <tr>
+                                            <td>2020</td>
+                                            <td>75.5</td>
+                                            <td class="text-success">+12%</td>
+                                            <td>12.8</td>
+                                        </tr>
+                                    {% endif %}
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Investor Information -->
+<section class="py-5">
+    <div class="container">
+        <h2 class="fw-bold mb-4">Investor Information</h2>
+        
+        <div class="row mb-5">
+            <div class="col-lg-6 mb-4 mb-lg-0">
+                <h3 class="h4 mb-3">Investor Relations</h3>
+                <p>We are committed to maintaining a transparent and productive relationship with our investors. Our goal is to provide timely and accurate information about our financial performance, strategic initiatives, and corporate governance practices.</p>
+                <p>For investor inquiries, please contact our Investor Relations department:</p>
+                <div class="d-flex align-items-center mb-2">
+                    <i class="fas fa-envelope text-primary me-2"></i>
+                    <span>investors@companyportal.com</span>
+                </div>
+                <div class="d-flex align-items-center">
+                    <i class="fas fa-phone text-primary me-2"></i>
+                    <span>+1 (555) 123-4567</span>
+                </div>
+            </div>
+            
+            <div class="col-lg-6">
+                <h3 class="h4 mb-3">Important Dates</h3>
+                <div class="list-group">
+                    {% if has_dynamic_data and investor_events %}
+                        {% for event in investor_events %}
+                            <div class="list-group-item border-0 mb-2 rounded shadow-sm">
+                                <div class="d-flex w-100 justify-content-between align-items-center">
+                                    <h5 class="mb-1">{{ event.title }}</h5>
+                                    <small class="text-muted">{{ event.event_date.strftime('%B %d, %Y') }}</small>
+                                </div>
+                                <p class="mb-1">{{ event.description }}</p>
+                            </div>
+                        {% endfor %}
+                    {% else %}
+                        <!-- Static fallback content -->
+                        <div class="list-group-item border-0 mb-2 rounded shadow-sm">
+                            <div class="d-flex w-100 justify-content-between align-items-center">
+                                <h5 class="mb-1">Q1 2025 Earnings Release</h5>
+                                <small class="text-muted">April 15, 2025</small>
+                            </div>
+                            <p class="mb-1">First quarter financial results announcement</p>
+                        </div>
+                        <div class="list-group-item border-0 mb-2 rounded shadow-sm">
+                            <div class="d-flex w-100 justify-content-between align-items-center">
+                                <h5 class="mb-1">Annual Shareholders Meeting</h5>
+                                <small class="text-muted">May 20, 2025</small>
+                            </div>
+                            <p class="mb-1">Annual meeting for all shareholders</p>
+                        </div>
+                        <div class="list-group-item border-0 mb-2 rounded shadow-sm">
+                            <div class="d-flex w-100 justify-content-between align-items-center">
+                                <h5 class="mb-1">Q2 2025 Earnings Release</h5>
+                                <small class="text-muted">July 15, 2025</small>
+                            </div>
+                            <p class="mb-1">Second quarter financial results announcement</p>
+                        </div>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+        
+        <div class="text-center">
+            <a href="#" class="btn btn-primary btn-lg">Download Annual Report</a>
+            <a href="#" class="btn btn-outline-primary btn-lg ms-2">Investor Presentation</a>
+        </div>
+    </div>
+</section>
+{% endblock %}
