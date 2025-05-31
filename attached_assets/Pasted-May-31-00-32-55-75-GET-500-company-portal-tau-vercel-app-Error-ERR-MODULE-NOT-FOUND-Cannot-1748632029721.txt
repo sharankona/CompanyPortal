@@ -1,0 +1,126 @@
+May 31 00:32:55.75
+GET
+500
+company-portal-tau.vercel.app
+/
+Error [ERR_MODULE_NOT_FOUND]: Cannot find module '/var/task/server/routes' imported from /var/task/server/index.js at finalizeResolution (node:internal/modules/esm/resolve:281:11) at moduleResolve (node:internal/modules/esm/resolve:866:10) at moduleResolveWithNodePath (node:internal/modules/esm/resolve:990:14) at defaultResolve (node:internal/modules/esm/resolve:1033:79) at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:780:12) at #cachedDefaultResolve (node:internal/modules/esm/loader:704:25) at ModuleLoader.resolve (node:internal/modules/esm/loader:687:38) at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:305:38) at ModuleJob._link (node:internal/modules/esm/module_job:137:49) { code: 'ERR_MODULE_NOT_FOUND', url: 'file:///var/task/server/routes' } Node.js process exited with exit status: 1. The logs above can help with debugging the issue.
+May 31 00:31:15.96
+GET
+500
+company-portal-i0b93q3p5-cirkuitrys-projects.vercel.app
+/
+Error [ERR_MODULE_NOT_FOUND]: Cannot find module '/var/task/server/routes' imported from /var/task/server/index.js at finalizeResolution (node:internal/modules/esm/resolve:281:11) at moduleResolve (node:internal/modules/esm/resolve:866:10) at moduleResolveWithNodePath (node:internal/modules/esm/resolve:990:14) at defaultResolve (node:internal/modules/esm/resolve:1033:79) at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:780:12) at #cachedDefaultResolve (node:internal/modules/esm/loader:704:25) at ModuleLoader.resolve (node:internal/modules/esm/loader:687:38) at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:305:38) at ModuleJob._link (node:internal/modules/esm/module_job:137:49) { code: 'ERR_MODULE_NOT_FOUND', url: 'file:///var/task/server/routes' } Node.js process exited with exit status: 1. The logs above can help with debugging the issue.
+May 31 00:31:11.97
+GET
+500
+company-portal-i0b93q3p5-cirkuitrys-projects.vercel.app
+/
+Error [ERR_MODULE_NOT_FOUND]: Cannot find module '/var/task/server/routes' imported from /var/task/server/index.js at finalizeResolution (node:internal/modules/esm/resolve:281:11) at moduleResolve (node:internal/modules/esm/resolve:866:10) at moduleResolveWithNodePath (node:internal/modules/esm/resolve:990:14) at defaultResolve (node:internal/modules/esm/resolve:1033:79) at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:780:12) at #cachedDefaultResolve (node:internal/modules/esm/loader:704:25) at ModuleLoader.resolve (node:internal/modules/esm/loader:687:38) at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:305:38) at ModuleJob._link (node:internal/modules/esm/module_job:137:49) { code: 'ERR_MODULE_NOT_FOUND', url: 'file:///var/task/server/routes' } Node.js process exited with exit status: 1. The logs above can help with debugging the issue.
+May 31 00:30:58.38
+GET
+500
+company-portal-i0b93q3p5-cirkuitrys-projects.vercel.app
+/favicon.ico
+Error [ERR_MODULE_NOT_FOUND]: Cannot find module '/var/task/server/routes' imported from /var/task/server/index.js at finalizeResolution (node:internal/modules/esm/resolve:281:11) at moduleResolve (node:internal/modules/esm/resolve:866:10) at moduleResolveWithNodePath (node:internal/modules/esm/resolve:990:14) at defaultResolve (node:internal/modules/esm/resolve:1033:79) at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:780:12) at #cachedDefaultResolve (node:internal/modules/esm/loader:704:25) at ModuleLoader.resolve (node:internal/modules/esm/loader:687:38) at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:305:38) at ModuleJob._link (node:internal/modules/esm/module_job:137:49) { code: 'ERR_MODULE_NOT_FOUND', url: 'file:///var/task/server/routes' } Node.js process exited with exit status: 1. The logs above can help with debugging the issue.
+May 31 00:30:56.97
+GET
+500
+company-portal-i0b93q3p5-cirkuitrys-projects.vercel.app
+/favicon.ico
+Error [ERR_MODULE_NOT_FOUND]: Cannot find module '/var/task/server/routes' imported from /var/task/server/index.js at finalizeResolution (node:internal/modules/esm/resolve:281:11) at moduleResolve (node:internal/modules/esm/resolve:866:10) at moduleResolveWithNodePath (node:internal/modules/esm/resolve:990:14) at defaultResolve (node:internal/modules/esm/resolve:1033:79) at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:780:12) at #cachedDefaultResolve (node:internal/modules/esm/loader:704:25) at ModuleLoader.resolve (node:internal/modules/esm/loader:687:38) at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:305:38) at ModuleJob._link (node:internal/modules/esm/module_job:137:49) { code: 'ERR_MODULE_NOT_FOUND', url: 'file:///var/task/server/routes' } Node.js process exited with exit status: 1. The logs above can help with debugging the issue.
+May 31 00:30:56.70
+GET
+500
+company-portal-i0b93q3p5-cirkuitrys-projects.vercel.app
+/favicon.ico
+Error [ERR_MODULE_NOT_FOUND]: Cannot find module '/var/task/server/routes' imported from /var/task/server/index.js at finalizeResolution (node:internal/modules/esm/resolve:281:11) at moduleResolve (node:internal/modules/esm/resolve:866:10) at moduleResolveWithNodePath (node:internal/modules/esm/resolve:990:14) at defaultResolve (node:internal/modules/esm/resolve:1033:79) at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:780:12) at #cachedDefaultResolve (node:internal/modules/esm/loader:704:25) at ModuleLoader.resolve (node:internal/modules/esm/loader:687:38) at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:305:38) at ModuleJob._link (node:internal/modules/esm/module_job:137:49) { code: 'ERR_MODULE_NOT_FOUND', url: 'file:///var/task/server/routes' } Node.js process exited with exit status: 1. The logs above can help with debugging the issue.
+May 31 00:30:53.61
+GET
+500
+company-portal-i0b93q3p5-cirkuitrys-projects.vercel.app
+/
+Error [ERR_MODULE_NOT_FOUND]: Cannot find module '/var/task/server/routes' imported from /var/task/server/index.js at finalizeResolution (node:internal/modules/esm/resolve:281:11) at moduleResolve (node:internal/modules/esm/resolve:866:10) at moduleResolveWithNodePath (node:internal/modules/esm/resolve:990:14) at defaultResolve (node:internal/modules/esm/resolve:1033:79) at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:780:12) at #cachedDefaultResolve (node:internal/modules/esm/loader:704:25) at ModuleLoader.resolve (node:internal/modules/esm/loader:687:38) at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:305:38) at ModuleJob._link (node:internal/modules/esm/module_job:137:49) { code: 'ERR_MODULE_NOT_FOUND', url: 'file:///var/task/server/routes' } Node.js process exited with exit status: 1. The logs above can help with debugging the issue.
+May 31 00:30:49.67
+GET
+500
+company-portal-i0b93q3p5-cirkuitrys-projects.vercel.app
+/
+Error [ERR_MODULE_NOT_FOUND]: Cannot find module '/var/task/server/routes' imported from /var/task/server/index.js at finalizeResolution (node:internal/modules/esm/resolve:281:11) at moduleResolve (node:internal/modules/esm/resolve:866:10) at moduleResolveWithNodePath (node:internal/modules/esm/resolve:990:14) at defaultResolve (node:internal/modules/esm/resolve:1033:79) at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:780:12) at #cachedDefaultResolve (node:internal/modules/esm/loader:704:25) at ModuleLoader.resolve (node:internal/modules/esm/loader:687:38) at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:305:38) at ModuleJob._link (node:internal/modules/esm/module_job:137:49) { code: 'ERR_MODULE_NOT_FOUND', url: 'file:///var/task/server/routes' } Node.js process exited with exit status: 1. The logs above can help with debugging the issue.
+May 31 00:30:48.34
+GET
+500
+company-portal-i0b93q3p5-cirkuitrys-projects.vercel.app
+/favicon.ico
+Error [ERR_MODULE_NOT_FOUND]: Cannot find module '/var/task/server/routes' imported from /var/task/server/index.js at finalizeResolution (node:internal/modules/esm/resolve:281:11) at moduleResolve (node:internal/modules/esm/resolve:866:10) at moduleResolveWithNodePath (node:internal/modules/esm/resolve:990:14) at defaultResolve (node:internal/modules/esm/resolve:1033:79) at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:780:12) at #cachedDefaultResolve (node:internal/modules/esm/loader:704:25) at ModuleLoader.resolve (node:internal/modules/esm/loader:687:38) at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:305:38) at ModuleJob._link (node:internal/modules/esm/module_job:137:49) { code: 'ERR_MODULE_NOT_FOUND', url: 'file:///var/task/server/routes' } Node.js process exited with exit status: 1. The logs above can help with debugging the issue.
+May 31 00:30:47.87
+GET
+500
+company-portal-i0b93q3p5-cirkuitrys-projects.vercel.app
+/favicon.ico
+Error [ERR_MODULE_NOT_FOUND]: Cannot find module '/var/task/server/routes' imported from /var/task/server/index.js at finalizeResolution (node:internal/modules/esm/resolve:281:11) at moduleResolve (node:internal/modules/esm/resolve:866:10) at moduleResolveWithNodePath (node:internal/modules/esm/resolve:990:14) at defaultResolve (node:internal/modules/esm/resolve:1033:79) at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:780:12) at #cachedDefaultResolve (node:internal/modules/esm/loader:704:25) at ModuleLoader.resolve (node:internal/modules/esm/loader:687:38) at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:305:38) at ModuleJob._link (node:internal/modules/esm/module_job:137:49) { code: 'ERR_MODULE_NOT_FOUND', url: 'file:///var/task/server/routes' } Node.js process exited with exit status: 1. The logs above can help with debugging the issue.
+May 31 00:30:44.77
+GET
+500
+company-portal-i0b93q3p5-cirkuitrys-projects.vercel.app
+/
+Error [ERR_MODULE_NOT_FOUND]: Cannot find module '/var/task/server/routes' imported from /var/task/server/index.js at finalizeResolution (node:internal/modules/esm/resolve:281:11) at moduleResolve (node:internal/modules/esm/resolve:866:10) at moduleResolveWithNodePath (node:internal/modules/esm/resolve:990:14) at defaultResolve (node:internal/modules/esm/resolve:1033:79) at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:780:12) at #cachedDefaultResolve (node:internal/modules/esm/loader:704:25) at ModuleLoader.resolve (node:internal/modules/esm/loader:687:38) at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:305:38) at ModuleJob._link (node:internal/modules/esm/module_job:137:49) { code: 'ERR_MODULE_NOT_FOUND', url: 'file:///var/task/server/routes' } Node.js process exited with exit status: 1. The logs above can help with debugging the issue.
+May 31 00:30:40.75
+GET
+500
+company-portal-i0b93q3p5-cirkuitrys-projects.vercel.app
+/
+Error [ERR_MODULE_NOT_FOUND]: Cannot find module '/var/task/server/routes' imported from /var/task/server/index.js at finalizeResolution (node:internal/modules/esm/resolve:281:11) at moduleResolve (node:internal/modules/esm/resolve:866:10) at moduleResolveWithNodePath (node:internal/modules/esm/resolve:990:14) at defaultResolve (node:internal/modules/esm/resolve:1033:79) at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:780:12) at #cachedDefaultResolve (node:internal/modules/esm/loader:704:25) at ModuleLoader.resolve (node:internal/modules/esm/loader:687:38) at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:305:38) at ModuleJob._link (node:internal/modules/esm/module_job:137:49) { code: 'ERR_MODULE_NOT_FOUND', url: 'file:///var/task/server/routes' } Node.js process exited with exit status: 1. The logs above can help with debugging the issue.
+May 31 00:30:39.26
+GET
+500
+company-portal-i0b93q3p5-cirkuitrys-projects.vercel.app
+/favicon.ico
+Error [ERR_MODULE_NOT_FOUND]: Cannot find module '/var/task/server/routes' imported from /var/task/server/index.js at finalizeResolution (node:internal/modules/esm/resolve:281:11) at moduleResolve (node:internal/modules/esm/resolve:866:10) at moduleResolveWithNodePath (node:internal/modules/esm/resolve:990:14) at defaultResolve (node:internal/modules/esm/resolve:1033:79) at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:780:12) at #cachedDefaultResolve (node:internal/modules/esm/loader:704:25) at ModuleLoader.resolve (node:internal/modules/esm/loader:687:38) at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:305:38) at ModuleJob._link (node:internal/modules/esm/module_job:137:49) { code: 'ERR_MODULE_NOT_FOUND', url: 'file:///var/task/server/routes' } Node.js process exited with exit status: 1. The logs above can help with debugging the issue.
+May 31 00:30:36.03
+GET
+500
+company-portal-i0b93q3p5-cirkuitrys-projects.vercel.app
+/
+Error [ERR_MODULE_NOT_FOUND]: Cannot find module '/var/task/server/routes' imported from /var/task/server/index.js at finalizeResolution (node:internal/modules/esm/resolve:281:11) at moduleResolve (node:internal/modules/esm/resolve:866:10) at moduleResolveWithNodePath (node:internal/modules/esm/resolve:990:14) at defaultResolve (node:internal/modules/esm/resolve:1033:79) at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:780:12) at #cachedDefaultResolve (node:internal/modules/esm/loader:704:25) at ModuleLoader.resolve (node:internal/modules/esm/loader:687:38) at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:305:38) at ModuleJob._link (node:internal/modules/esm/module_job:137:49) { code: 'ERR_MODULE_NOT_FOUND', url: 'file:///var/task/server/routes' } Node.js process exited with exit status: 1. The logs above can help with debugging the issue.
+May 31 00:30:32.12
+GET
+500
+company-portal-i0b93q3p5-cirkuitrys-projects.vercel.app
+/
+Error [ERR_MODULE_NOT_FOUND]: Cannot find module '/var/task/server/routes' imported from /var/task/server/index.js at finalizeResolution (node:internal/modules/esm/resolve:281:11) at moduleResolve (node:internal/modules/esm/resolve:866:10) at moduleResolveWithNodePath (node:internal/modules/esm/resolve:990:14) at defaultResolve (node:internal/modules/esm/resolve:1033:79) at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:780:12) at #cachedDefaultResolve (node:internal/modules/esm/loader:704:25) at ModuleLoader.resolve (node:internal/modules/esm/loader:687:38) at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:305:38) at ModuleJob._link (node:internal/modules/esm/module_job:137:49) { code: 'ERR_MODULE_NOT_FOUND', url: 'file:///var/task/server/routes' } Node.js process exited with exit status: 1. The logs above can help with debugging the issue.
+May 31 00:29:00.87
+GET
+500
+company-portal-i0b93q3p5-cirkuitrys-projects.vercel.app
+/favicon.ico
+Error [ERR_MODULE_NOT_FOUND]: Cannot find module '/var/task/server/routes' imported from /var/task/server/index.js at finalizeResolution (node:internal/modules/esm/resolve:281:11) at moduleResolve (node:internal/modules/esm/resolve:866:10) at moduleResolveWithNodePath (node:internal/modules/esm/resolve:990:14) at defaultResolve (node:internal/modules/esm/resolve:1033:79) at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:780:12) at #cachedDefaultResolve (node:internal/modules/esm/loader:704:25) at ModuleLoader.resolve (node:internal/modules/esm/loader:687:38) at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:305:38) at ModuleJob._link (node:internal/modules/esm/module_job:137:49) { code: 'ERR_MODULE_NOT_FOUND', url: 'file:///var/task/server/routes' } Node.js process exited with exit status: 1. The logs above can help with debugging the issue.
+May 31 00:29:00.23
+GET
+500
+company-portal-i0b93q3p5-cirkuitrys-projects.vercel.app
+/favicon.ico
+Error [ERR_MODULE_NOT_FOUND]: Cannot find module '/var/task/server/routes' imported from /var/task/server/index.js at finalizeResolution (node:internal/modules/esm/resolve:281:11) at moduleResolve (node:internal/modules/esm/resolve:866:10) at moduleResolveWithNodePath (node:internal/modules/esm/resolve:990:14) at defaultResolve (node:internal/modules/esm/resolve:1033:79) at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:780:12) at #cachedDefaultResolve (node:internal/modules/esm/loader:704:25) at ModuleLoader.resolve (node:internal/modules/esm/loader:687:38) at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:305:38) at ModuleJob._link (node:internal/modules/esm/module_job:137:49) { code: 'ERR_MODULE_NOT_FOUND', url: 'file:///var/task/server/routes' } Node.js process exited with exit status: 1. The logs above can help with debugging the issue.
+May 31 00:28:50.19
+GET
+500
+company-portal-i0b93q3p5-cirkuitrys-projects.vercel.app
+/
+Error [ERR_MODULE_NOT_FOUND]: Cannot find module '/var/task/server/routes' imported from /var/task/server/index.js at finalizeResolution (node:internal/modules/esm/resolve:281:11) at moduleResolve (node:internal/modules/esm/resolve:866:10) at moduleResolveWithNodePath (node:internal/modules/esm/resolve:990:14) at defaultResolve (node:internal/modules/esm/resolve:1033:79) at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:780:12) at #cachedDefaultResolve (node:internal/modules/esm/loader:704:25) at ModuleLoader.resolve (node:internal/modules/esm/loader:687:38) at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:305:38) at ModuleJob._link (node:internal/modules/esm/module_job:137:49) { code: 'ERR_MODULE_NOT_FOUND', url: 'file:///var/task/server/routes' } Node.js process exited with exit status: 1. The logs above can help with debugging the issue.
+May 31 00:28:49.96
+GET
+500
+company-portal-i0b93q3p5-cirkuitrys-projects.vercel.app
+/
+Error [ERR_MODULE_NOT_FOUND]: Cannot find module '/var/task/server/routes' imported from /var/task/server/index.js at finalizeResolution (node:internal/modules/esm/resolve:281:11) at moduleResolve (node:internal/modules/esm/resolve:866:10) at moduleResolveWithNodePath (node:internal/modules/esm/resolve:990:14) at defaultResolve (node:internal/modules/esm/resolve:1033:79) at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:780:12) at #cachedDefaultResolve (node:internal/modules/esm/loader:704:25) at ModuleLoader.resolve (node:internal/modules/esm/loader:687:38) at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:305:38) at ModuleJob._link (node:internal/modules/esm/module_job:137:49) { code: 'ERR_MODULE_NOT_FOUND', url: 'file:///var/task/server/routes' } Node.js process exited with exit status: 1. The logs above can help with debugging the issue.
+May 31 00:28:46.12
+GET
+500
+company-portal-i0b93q3p5-cirkuitrys-projects.vercel.app
+/
+Error [ERR_MODULE_NOT_FOUND]: Cannot find module '/var/task/server/routes' imported from /var/task/server/index.js at finalizeResolution (node:internal/modules/esm/resolve:281:11) at moduleResolve (node:internal/modules/esm/resolve:866:10) at moduleResolveWithNodePath (node:internal/modules/esm/resolve:990:14) at defaultResolve (node:internal/modules/esm/resolve:1033:79) at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:780:12) at #cachedDefaultResolve (node:internal/modules/esm/loader:704:25) at ModuleLoader.resolve (node:internal/modules/esm/loader:687:38) at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:305:38) at ModuleJob._link (node:internal/modules/esm/module_job:137:49) { code: 'ERR_MODULE_NOT_FOUND', url: 'file:///var/task/server/routes' } Node.js process exited with exit status: 1. The logs above can help with debugging the issue.
+May 31 00:28:45.89
+GET
+500
+company-portal-i0b93q3p5-cirkuitrys-projects.vercel.app
+/
+Error [ERR_MODULE_NOT_FOUND]: C

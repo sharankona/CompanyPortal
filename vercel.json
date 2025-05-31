@@ -1,0 +1,33 @@
+
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@vercel/static-build",
+      "config": {
+        "distDir": "dist"
+      }
+    },
+    {
+      "src": "backend/index.ts",
+      "use": "@vercel/node",
+      "config": {
+        "includeFiles": "backend/**"
+      }
+    }
+  ],
+  "routes": [
+    {
+      "src": "/api/(.*)",
+      "dest": "/backend/index.ts"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/backend/index.ts"
+    }
+  ],
+  "env": {
+    "NODE_ENV": "production"
+  }
+}

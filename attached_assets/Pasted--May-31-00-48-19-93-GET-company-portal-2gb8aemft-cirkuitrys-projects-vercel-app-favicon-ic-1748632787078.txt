@@ -1,0 +1,163 @@
+
+May 31 00:48:19.93
+GET
+---
+company-portal-2gb8aemft-cirkuitrys-projects.vercel.app
+/favicon.ico
+Error [ERR_MODULE_NOT_FOUND]: Cannot find module '/var/task/server/vite' imported from /var/task/server/index.js at finalizeResolution (node:internal/modules/esm/resolve:281:11) at moduleResolve (node:internal/modules/esm/resolve:866:10) at moduleResolveWithNodePath (node:internal/modules/esm/resolve:990:14) at defaultResolve (node:internal/modules/esm/resolve:1033:79) at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:780:12) at #cachedDefaultResolve (node:internal/modules/esm/loader:704:25) at ModuleLoader.resolve (node:internal/modules/esm/loader:687:38) at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:305:38) at ModuleJob._link (node:internal/modules/esm/module_job:137:49) { code: 'ERR_MODULE_NOT_FOUND', url: 'file:///var/task/server/vite' } Node.js process exited with exit status: 1. The logs above can help with debugging the issue.
+May 31 00:48:08.74
+GET
+500
+company-portal-2gb8aemft-cirkuitrys-projects.vercel.app
+/
+Error [ERR_MODULE_NOT_FOUND]: Cannot find module '/var/task/server/vite' imported from /var/task/server/index.js at finalizeResolution (node:internal/modules/esm/resolve:281:11) at moduleResolve (node:internal/modules/esm/resolve:866:10) at moduleResolveWithNodePath (node:internal/modules/esm/resolve:990:14) at defaultResolve (node:internal/modules/esm/resolve:1033:79) at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:780:12) at #cachedDefaultResolve (node:internal/modules/esm/loader:704:25) at ModuleLoader.resolve (node:internal/modules/esm/loader:687:38) at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:305:38) at ModuleJob._link (node:internal/modules/esm/module_job:137:49) { code: 'ERR_MODULE_NOT_FOUND', url: 'file:///var/task/server/vite' } Node.js process exited with exit status: 1. The logs above can help with debugging the issue.
+May 31 00:48:05.11
+GET
+500
+company-portal-2gb8aemft-cirkuitrys-projects.vercel.app
+/favicon.ico
+Error [ERR_MODULE_NOT_FOUND]: Cannot find module '/var/task/server/vite' imported from /var/task/server/index.js at finalizeResolution (node:internal/modules/esm/resolve:281:11) at moduleResolve (node:internal/modules/esm/resolve:866:10) at moduleResolveWithNodePath (node:internal/modules/esm/resolve:990:14) at defaultResolve (node:internal/modules/esm/resolve:1033:79) at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:780:12) at #cachedDefaultResolve (node:internal/modules/esm/loader:704:25) at ModuleLoader.resolve (node:internal/modules/esm/loader:687:38) at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:305:38) at ModuleJob._link (node:internal/modules/esm/module_job:137:49) { code: 'ERR_MODULE_NOT_FOUND', url: 'file:///var/task/server/vite' } Node.js process exited with exit status: 1. The logs above can help with debugging the issue.
+May 31 00:47:55.09
+GET
+500
+company-portal-2gb8aemft-cirkuitrys-projects.vercel.app
+/favicon.ico
+Error [ERR_MODULE_NOT_FOUND]: Cannot find module '/var/task/server/vite' imported from /var/task/server/index.js at finalizeResolution (node:internal/modules/esm/resolve:281:11) at moduleResolve (node:internal/modules/esm/resolve:866:10) at moduleResolveWithNodePath (node:internal/modules/esm/resolve:990:14) at defaultResolve (node:internal/modules/esm/resolve:1033:79) at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:780:12) at #cachedDefaultResolve (node:internal/modules/esm/loader:704:25) at ModuleLoader.resolve (node:internal/modules/esm/loader:687:38) at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:305:38) at ModuleJob._link (node:internal/modules/esm/module_job:137:49) { code: 'ERR_MODULE_NOT_FOUND', url: 'file:///var/task/server/vite' } Node.js process exited with exit status: 1. The logs above can help with debugging the issue.
+May 31 00:47:51.74
+GET
+500
+company-portal-2gb8aemft-cirkuitrys-projects.vercel.app
+/
+Error [ERR_MODULE_NOT_FOUND]: Cannot find module '/var/task/server/vite' imported from /var/task/server/index.js at finalizeResolution (node:internal/modules/esm/resolve:281:11) at moduleResolve (node:internal/modules/esm/resolve:866:10) at moduleResolveWithNodePath (node:internal/modules/esm/resolve:990:14) at defaultResolve (node:internal/modules/esm/resolve:1033:79) at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:780:12) at #cachedDefaultResolve (node:internal/modules/esm/loader:704:25) at ModuleLoader.resolve (node:internal/modules/esm/loader:687:38) at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:305:38) at ModuleJob._link (node:internal/modules/esm/module_job:137:49) { code: 'ERR_MODULE_NOT_FOUND', url: 'file:///var/task/server/vite' } Node.js process exited with exit status: 1. The logs above can help with debugging the issue.
+May 31 00:47:47.77
+GET
+500
+company-portal-2gb8aemft-cirkuitrys-projects.vercel.app
+/
+Error [ERR_MODULE_NOT_FOUND]: Cannot find module '/var/task/server/vite' imported from /var/task/server/index.js at finalizeResolution (node:internal/modules/esm/resolve:281:11) at moduleResolve (node:internal/modules/esm/resolve:866:10) at moduleResolveWithNodePath (node:internal/modules/esm/resolve:990:14) at defaultResolve (node:internal/modules/esm/resolve:1033:79) at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:780:12) at #cachedDefaultResolve (node:internal/modules/esm/loader:704:25) at ModuleLoader.resolve (node:internal/modules/esm/loader:687:38) at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:305:38) at ModuleJob._link (node:internal/modules/esm/module_job:137:49) { code: 'ERR_MODULE_NOT_FOUND', url: 'file:///var/task/server/vite' } Node.js process exited with exit status: 1. The logs above can help with debugging the issue.
+May 31 00:47:46.06
+GET
+500
+company-portal-2gb8aemft-cirkuitrys-projects.vercel.app
+/favicon.ico
+Error [ERR_MODULE_NOT_FOUND]: Cannot find module '/var/task/server/vite' imported from /var/task/server/index.js at finalizeResolution (node:internal/modules/esm/resolve:281:11) at moduleResolve (node:internal/modules/esm/resolve:866:10) at moduleResolveWithNodePath (node:internal/modules/esm/resolve:990:14) at defaultResolve (node:internal/modules/esm/resolve:1033:79) at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:780:12) at #cachedDefaultResolve (node:internal/modules/esm/loader:704:25) at ModuleLoader.resolve (node:internal/modules/esm/loader:687:38) at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:305:38) at ModuleJob._link (node:internal/modules/esm/module_job:137:49) { code: 'ERR_MODULE_NOT_FOUND', url: 'file:///var/task/server/vite' } Node.js process exited with exit status: 1. The logs above can help with debugging the issue.
+May 31 00:47:42.98
+GET
+500
+company-portal-2gb8aemft-cirkuitrys-projects.vercel.app
+/
+Error [ERR_MODULE_NOT_FOUND]: Cannot find module '/var/task/server/vite' imported from /var/task/server/index.js at finalizeResolution (node:internal/modules/esm/resolve:281:11) at moduleResolve (node:internal/modules/esm/resolve:866:10) at moduleResolveWithNodePath (node:internal/modules/esm/resolve:990:14) at defaultResolve (node:internal/modules/esm/resolve:1033:79) at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:780:12) at #cachedDefaultResolve (node:internal/modules/esm/loader:704:25) at ModuleLoader.resolve (node:internal/modules/esm/loader:687:38) at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:305:38) at ModuleJob._link (node:internal/modules/esm/module_job:137:49) { code: 'ERR_MODULE_NOT_FOUND', url: 'file:///var/task/server/vite' } Node.js process exited with exit status: 1. The logs above can help with debugging the issue.
+May 31 00:47:39.00
+GET
+500
+company-portal-2gb8aemft-cirkuitrys-projects.vercel.app
+/
+Error [ERR_MODULE_NOT_FOUND]: Cannot find module '/var/task/server/vite' imported from /var/task/server/index.js at finalizeResolution (node:internal/modules/esm/resolve:281:11) at moduleResolve (node:internal/modules/esm/resolve:866:10) at moduleResolveWithNodePath (node:internal/modules/esm/resolve:990:14) at defaultResolve (node:internal/modules/esm/resolve:1033:79) at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:780:12) at #cachedDefaultResolve (node:internal/modules/esm/loader:704:25) at ModuleLoader.resolve (node:internal/modules/esm/loader:687:38) at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:305:38) at ModuleJob._link (node:internal/modules/esm/module_job:137:49) { code: 'ERR_MODULE_NOT_FOUND', url: 'file:///var/task/server/vite' } Node.js process exited with exit status: 1. The logs above can help with debugging the issue.
+May 31 00:47:38.91
+GET
+500
+company-portal-2gb8aemft-cirkuitrys-projects.vercel.app
+/favicon.ico
+Error [ERR_MODULE_NOT_FOUND]: Cannot find module '/var/task/server/vite' imported from /var/task/server/index.js at finalizeResolution (node:internal/modules/esm/resolve:281:11) at moduleResolve (node:internal/modules/esm/resolve:866:10) at moduleResolveWithNodePath (node:internal/modules/esm/resolve:990:14) at defaultResolve (node:internal/modules/esm/resolve:1033:79) at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:780:12) at #cachedDefaultResolve (node:internal/modules/esm/loader:704:25) at ModuleLoader.resolve (node:internal/modules/esm/loader:687:38) at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:305:38) at ModuleJob._link (node:internal/modules/esm/module_job:137:49) { code: 'ERR_MODULE_NOT_FOUND', url: 'file:///var/task/server/vite' } Node.js process exited with exit status: 1. The logs above can help with debugging the issue.
+May 31 00:47:37.54
+GET
+500
+company-portal-2gb8aemft-cirkuitrys-projects.vercel.app
+/favicon.ico
+Error [ERR_MODULE_NOT_FOUND]: Cannot find module '/var/task/server/vite' imported from /var/task/server/index.js at finalizeResolution (node:internal/modules/esm/resolve:281:11) at moduleResolve (node:internal/modules/esm/resolve:866:10) at moduleResolveWithNodePath (node:internal/modules/esm/resolve:990:14) at defaultResolve (node:internal/modules/esm/resolve:1033:79) at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:780:12) at #cachedDefaultResolve (node:internal/modules/esm/loader:704:25) at ModuleLoader.resolve (node:internal/modules/esm/loader:687:38) at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:305:38) at ModuleJob._link (node:internal/modules/esm/module_job:137:49) { code: 'ERR_MODULE_NOT_FOUND', url: 'file:///var/task/server/vite' } Node.js process exited with exit status: 1. The logs above can help with debugging the issue.
+May 31 00:47:37.39
+GET
+500
+company-portal-2gb8aemft-cirkuitrys-projects.vercel.app
+/favicon.ico
+Error [ERR_MODULE_NOT_FOUND]: Cannot find module '/var/task/server/vite' imported from /var/task/server/index.js at finalizeResolution (node:internal/modules/esm/resolve:281:11) at moduleResolve (node:internal/modules/esm/resolve:866:10) at moduleResolveWithNodePath (node:internal/modules/esm/resolve:990:14) at defaultResolve (node:internal/modules/esm/resolve:1033:79) at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:780:12) at #cachedDefaultResolve (node:internal/modules/esm/loader:704:25) at ModuleLoader.resolve (node:internal/modules/esm/loader:687:38) at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:305:38) at ModuleJob._link (node:internal/modules/esm/module_job:137:49) { code: 'ERR_MODULE_NOT_FOUND', url: 'file:///var/task/server/vite' } Node.js process exited with exit status: 1. The logs above can help with debugging the issue.
+May 31 00:47:34.30
+GET
+500
+company-portal-2gb8aemft-cirkuitrys-projects.vercel.app
+/
+Error [ERR_MODULE_NOT_FOUND]: Cannot find module '/var/task/server/vite' imported from /var/task/server/index.js at finalizeResolution (node:internal/modules/esm/resolve:281:11) at moduleResolve (node:internal/modules/esm/resolve:866:10) at moduleResolveWithNodePath (node:internal/modules/esm/resolve:990:14) at defaultResolve (node:internal/modules/esm/resolve:1033:79) at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:780:12) at #cachedDefaultResolve (node:internal/modules/esm/loader:704:25) at ModuleLoader.resolve (node:internal/modules/esm/loader:687:38) at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:305:38) at ModuleJob._link (node:internal/modules/esm/module_job:137:49) { code: 'ERR_MODULE_NOT_FOUND', url: 'file:///var/task/server/vite' } Node.js process exited with exit status: 1. The logs above can help with debugging the issue.
+May 31 00:47:30.28
+GET
+500
+company-portal-2gb8aemft-cirkuitrys-projects.vercel.app
+/
+Error [ERR_MODULE_NOT_FOUND]: Cannot find module '/var/task/server/vite' imported from /var/task/server/index.js at finalizeResolution (node:internal/modules/esm/resolve:281:11) at moduleResolve (node:internal/modules/esm/resolve:866:10) at moduleResolveWithNodePath (node:internal/modules/esm/resolve:990:14) at defaultResolve (node:internal/modules/esm/resolve:1033:79) at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:780:12) at #cachedDefaultResolve (node:internal/modules/esm/loader:704:25) at ModuleLoader.resolve (node:internal/modules/esm/loader:687:38) at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:305:38) at ModuleJob._link (node:internal/modules/esm/module_job:137:49) { code: 'ERR_MODULE_NOT_FOUND', url: 'file:///var/task/server/vite' } Node.js process exited with exit status: 1. The logs above can help with debugging the issue.
+May 31 00:47:28.83
+GET
+500
+company-portal-2gb8aemft-cirkuitrys-projects.vercel.app
+/favicon.ico
+Error [ERR_MODULE_NOT_FOUND]: Cannot find module '/var/task/server/vite' imported from /var/task/server/index.js at finalizeResolution (node:internal/modules/esm/resolve:281:11) at moduleResolve (node:internal/modules/esm/resolve:866:10) at moduleResolveWithNodePath (node:internal/modules/esm/resolve:990:14) at defaultResolve (node:internal/modules/esm/resolve:1033:79) at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:780:12) at #cachedDefaultResolve (node:internal/modules/esm/loader:704:25) at ModuleLoader.resolve (node:internal/modules/esm/loader:687:38) at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:305:38) at ModuleJob._link (node:internal/modules/esm/module_job:137:49) { code: 'ERR_MODULE_NOT_FOUND', url: 'file:///var/task/server/vite' } Node.js process exited with exit status: 1. The logs above can help with debugging the issue.
+May 31 00:47:28.48
+GET
+500
+company-portal-2gb8aemft-cirkuitrys-projects.vercel.app
+/favicon.ico
+Error [ERR_MODULE_NOT_FOUND]: Cannot find module '/var/task/server/vite' imported from /var/task/server/index.js at finalizeResolution (node:internal/modules/esm/resolve:281:11) at moduleResolve (node:internal/modules/esm/resolve:866:10) at moduleResolveWithNodePath (node:internal/modules/esm/resolve:990:14) at defaultResolve (node:internal/modules/esm/resolve:1033:79) at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:780:12) at #cachedDefaultResolve (node:internal/modules/esm/loader:704:25) at ModuleLoader.resolve (node:internal/modules/esm/loader:687:38) at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:305:38) at ModuleJob._link (node:internal/modules/esm/module_job:137:49) { code: 'ERR_MODULE_NOT_FOUND', url: 'file:///var/task/server/vite' } Node.js process exited with exit status: 1. The logs above can help with debugging the issue.
+May 31 00:47:25.39
+GET
+500
+company-portal-2gb8aemft-cirkuitrys-projects.vercel.app
+/
+Error [ERR_MODULE_NOT_FOUND]: Cannot find module '/var/task/server/vite' imported from /var/task/server/index.js at finalizeResolution (node:internal/modules/esm/resolve:281:11) at moduleResolve (node:internal/modules/esm/resolve:866:10) at moduleResolveWithNodePath (node:internal/modules/esm/resolve:990:14) at defaultResolve (node:internal/modules/esm/resolve:1033:79) at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:780:12) at #cachedDefaultResolve (node:internal/modules/esm/loader:704:25) at ModuleLoader.resolve (node:internal/modules/esm/loader:687:38) at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:305:38) at ModuleJob._link (node:internal/modules/esm/module_job:137:49) { code: 'ERR_MODULE_NOT_FOUND', url: 'file:///var/task/server/vite' } Node.js process exited with exit status: 1. The logs above can help with debugging the issue.
+May 31 00:47:21.46
+GET
+500
+company-portal-2gb8aemft-cirkuitrys-projects.vercel.app
+/
+Error [ERR_MODULE_NOT_FOUND]: Cannot find module '/var/task/server/vite' imported from /var/task/server/index.js at finalizeResolution (node:internal/modules/esm/resolve:281:11) at moduleResolve (node:internal/modules/esm/resolve:866:10) at moduleResolveWithNodePath (node:internal/modules/esm/resolve:990:14) at defaultResolve (node:internal/modules/esm/resolve:1033:79) at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:780:12) at #cachedDefaultResolve (node:internal/modules/esm/loader:704:25) at ModuleLoader.resolve (node:internal/modules/esm/loader:687:38) at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:305:38) at ModuleJob._link (node:internal/modules/esm/module_job:137:49) { code: 'ERR_MODULE_NOT_FOUND', url: 'file:///var/task/server/vite' } Node.js process exited with exit status: 1. The logs above can help with debugging the issue.
+May 31 00:47:21.41
+GET
+500
+company-portal-2gb8aemft-cirkuitrys-projects.vercel.app
+/favicon.ico
+Error [ERR_MODULE_NOT_FOUND]: Cannot find module '/var/task/server/vite' imported from /var/task/server/index.js at finalizeResolution (node:internal/modules/esm/resolve:281:11) at moduleResolve (node:internal/modules/esm/resolve:866:10) at moduleResolveWithNodePath (node:internal/modules/esm/resolve:990:14) at defaultResolve (node:internal/modules/esm/resolve:1033:79) at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:780:12) at #cachedDefaultResolve (node:internal/modules/esm/loader:704:25) at ModuleLoader.resolve (node:internal/modules/esm/loader:687:38) at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:305:38) at ModuleJob._link (node:internal/modules/esm/module_job:137:49) { code: 'ERR_MODULE_NOT_FOUND', url: 'file:///var/task/server/vite' } Node.js process exited with exit status: 1. The logs above can help with debugging the issue.
+May 31 00:47:21.33
+GET
+500
+company-portal-2gb8aemft-cirkuitrys-projects.vercel.app
+/favicon.ico
+Error [ERR_MODULE_NOT_FOUND]: Cannot find module '/var/task/server/vite' imported from /var/task/server/index.js at finalizeResolution (node:internal/modules/esm/resolve:281:11) at moduleResolve (node:internal/modules/esm/resolve:866:10) at moduleResolveWithNodePath (node:internal/modules/esm/resolve:990:14) at defaultResolve (node:internal/modules/esm/resolve:1033:79) at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:780:12) at #cachedDefaultResolve (node:internal/modules/esm/loader:704:25) at ModuleLoader.resolve (node:internal/modules/esm/loader:687:38) at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:305:38) at ModuleJob._link (node:internal/modules/esm/module_job:137:49) { code: 'ERR_MODULE_NOT_FOUND', url: 'file:///var/task/server/vite' } Node.js process exited with exit status: 1. The logs above can help with debugging the issue.
+May 31 00:47:19.78
+GET
+500
+company-portal-2gb8aemft-cirkuitrys-projects.vercel.app
+/favicon.ico
+Error [ERR_MODULE_NOT_FOUND]: Cannot find module '/var/task/server/vite' imported from /var/task/server/index.js at finalizeResolution (node:internal/modules/esm/resolve:281:11) at moduleResolve (node:internal/modules/esm/resolve:866:10) at moduleResolveWithNodePath (node:internal/modules/esm/resolve:990:14) at defaultResolve (node:internal/modules/esm/resolve:1033:79) at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:780:12) at #cachedDefaultResolve (node:internal/modules/esm/loader:704:25) at ModuleLoader.resolve (node:internal/modules/esm/loader:687:38) at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:305:38) at ModuleJob._link (node:internal/modules/esm/module_job:137:49) { code: 'ERR_MODULE_NOT_FOUND', url: 'file:///var/task/server/vite' } Node.js process exited with exit status: 1. The logs above can help with debugging the issue.
+May 31 00:47:16.69
+GET
+500
+company-portal-2gb8aemft-cirkuitrys-projects.vercel.app
+/
+Error [ERR_MODULE_NOT_FOUND]: Cannot find module '/var/task/server/vite' imported from /var/task/server/index.js at finalizeResolution (node:internal/modules/esm/resolve:281:11) at moduleResolve (node:internal/modules/esm/resolve:866:10) at moduleResolveWithNodePath (node:internal/modules/esm/resolve:990:14) at defaultResolve (node:internal/modules/esm/resolve:1033:79) at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:780:12) at #cachedDefaultResolve (node:internal/modules/esm/loader:704:25) at ModuleLoader.resolve (node:internal/modules/esm/loader:687:38) at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:305:38) at ModuleJob._link (node:internal/modules/esm/module_job:137:49) { code: 'ERR_MODULE_NOT_FOUND', url: 'file:///var/task/server/vite' } Node.js process exited with exit status: 1. The logs above can help with debugging the issue.
+May 31 00:47:12.71
+GET
+500
+company-portal-2gb8aemft-cirkuitrys-projects.vercel.app
+/
+Error [ERR_MODULE_NOT_FOUND]: Cannot find module '/var/task/server/vite' imported from /var/task/server/index.js at finalizeResolution (node:internal/modules/esm/resolve:281:11) at moduleResolve (node:internal/modules/esm/resolve:866:10) at moduleResolveWithNodePath (node:internal/modules/esm/resolve:990:14) at defaultResolve (node:internal/modules/esm/resolve:1033:79) at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:780:12) at #cachedDefaultResolve (node:internal/modules/esm/loader:704:25) at ModuleLoader.resolve (node:internal/modules/esm/loader:687:38) at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:305:38) at ModuleJob._link (node:internal/modules/esm/module_job:137:49) { code: 'ERR_MODULE_NOT_FOUND', url: 'file:///var/task/server/vite' } Node.js process exited with exit status: 1. The logs above can help with debugging the issue.
+May 31 00:47:11.00
+GET
+500
+company-portal-2gb8aemft-cirkuitrys-projects.vercel.app
+/
+Error [ERR_MODULE_NOT_FOUND]: Cannot find module '/var/task/server/vite' imported from /var/task/server/index.js at finalizeResolution (node:internal/modules/esm/resolve:281:11) at moduleResolve (node:internal/modules/esm/resolve:866:10) at moduleResolveWithNodePath (node:internal/modules/esm/resolve:990:14) at defaultResolve (node:internal/modules/esm/resolve:1033:79) at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:780:12) at #cachedDefaultResolve (node:internal/modules/esm/loader:704:25) at ModuleLoader.resolve (node:internal/modules/esm/loader:687:38) at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:305:38) at ModuleJob._link (node:internal/modules/esm/module_job:137:49) { code: 'ERR_MODULE_NOT_FOUND', url: 'file:///var/task/server/vite' } Node.js process exited with exit status: 1. The logs above can help with debugging the issue.
+May 31 00:47:10.94
+GET
+500
+company-portal-2gb8aemft-cirkuitrys-projects.vercel.app
+/
+Error [ERR_MODULE_NOT_FOUND]: Cannot find module '/var/task/server/vite' imported from /var/task/server/index.js at finalizeResolution (node:internal/modules/esm/resolve:281:11) at moduleResolve (node:internal/modules/esm/resolve:866:10) at moduleResolveWithNodePath (node:internal/modules/esm/resolve:990:14) at defaultResolve (node:internal/modules/esm/resolve:1033:79) at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:780:12) at #cachedDefaultResolve (node:internal/modules/esm/loader:704:25) at ModuleLoader.resolve (node:internal/modules/esm/loader:687:38) at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:305:38) at ModuleJob._link (node:internal/modules/esm/module_job:137:49) { code: 'ERR_MODULE_NOT_FOUND', url: 'file:///var/task/server/vite' } Node.js process exited with exit status: 1. The logs above can help with debugging the issue.
+May 31 00:47:06.93
+GET
+500
+company-portal-2gb8aemft-cirkuitrys-projects.vercel.app
+/
+Error [ERR_MODULE_NOT_FOUND]: Cannot find module '/var/task/server/vite' imported from /var/task/server/index.js at finalizeResolution (node:internal/modules/esm/resolve:281:11) at moduleResolve (node:internal/modules/esm/resolve:866:10) at moduleResolveWithNodePath (node:internal/modules/esm/resolve:990:14) at defaultResolve (node:internal/modules/esm/resolve:1033:79) at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:780:12) at #cachedDefaultResolve (node:internal/modules/esm/loader:704:25) at ModuleLoader.resolve (node:internal/modules/esm/loader:687:38) at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:305:38) at ModuleJob._link (node:internal/modules/esm/module_job:137:49) { code: 'ERR_MODULE_NOT_FOUND', url: 'file:///var/task/server/vite' } Node.js process exited with exit status: 1. The logs above can help with debugging the issue.
+May 31 00:47:06.80
+GET
+500
+company-portal-2gb8aemft-cirkuitrys-projects.vercel.app
+/
+Error [ERR_MODULE_NOT_FOUND]: Cannot find module '/var/task/server/vite' import
