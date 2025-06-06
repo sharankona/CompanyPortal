@@ -1114,10 +1114,10 @@ app.use((req, res, next) => {
     res.status(status).json({ message });
     throw err;
   });
-  if (app.get("env") === "development") {
-    await setupVite(app, server);
-  } else {
+  if (process.env.NODE_ENV === "production") {
     serveStatic(app);
+  } else {
+    await setupVite(app, server);
   }
   const port = process.env.PORT || 5e3;
   server.listen({
