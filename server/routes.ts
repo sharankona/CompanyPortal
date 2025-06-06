@@ -308,7 +308,7 @@ export async function registerRoutes(app: Express): Promise<Server> {
 
       // Previous period announcements (for trend)
       const previousPeriodAnnouncements = announcements.filter(ann => 
-        doc.createdAt > twoMonthsAgo && doc.createdAt <= oneMonthAgo
+        ann.createdAt > twoMonthsAgo && ann.createdAt <= oneMonthAgo
       );
 
       // Get currently active users (activity within the last day)
