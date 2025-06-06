@@ -5,7 +5,8 @@ import {
   announcements, type Announcement, type InsertAnnouncement,
   events, type Event, type InsertEvent,
   userSettings, type UserSettings, type InsertUserSettings,
-  userProfiles, type UserProfile, type InsertUserProfile
+  userProfiles, type UserProfile, type InsertUserProfile,
+  financialMetrics, expenses, revenue
 } from "@shared/schema";
 import { IStorage } from "./storage";
 import { eq, desc } from "drizzle-orm";
@@ -217,7 +218,6 @@ export class DatabaseStorage implements IStorage {
       .returning();
     return updatedProfile || undefined;
   }
-}
 
   // Financial operations
   async getFinancialMetrics(period?: string): Promise<typeof financialMetrics.$inferSelect[]> {
@@ -237,3 +237,4 @@ export class DatabaseStorage implements IStorage {
     if (filters?.source) query = query.where(eq(revenue.source, filters.source));
     return await query.orderBy(desc(revenue.date));
   }
+}
