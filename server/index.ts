@@ -64,4 +64,7 @@ app.use((req, res, next) => {
   }, () => {
     log(`Server running on http://0.0.0.0:${port}`);
   });
+
+  // Export for Replit serverless functions
+  module.exports = app;
 })();

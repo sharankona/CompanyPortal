@@ -23,11 +23,10 @@ export function log(message: string, source = "express") {
 }
 
 export async function setupVite(app: Express, server: Server) {
-  const serverOptions = {
-    middlewareMode: true,
-    hmr: { server },
-    allowedHosts: true,
-  };
+  if (process.env.NODE_ENV === "production") {
+    // In production, serve static files from dist
+    return;
+  }
 
   const vite = await createViteServer({
     ...viteConfig,
@@ -39,7 +38,7 @@ export async function setupVite(app: Express, server: Server) {
         process.exit(1);
       },
     },
-    server: serverOptions,
+    server: { middlewareMode: true, hmr: { server }, allowedHosts: true },
     appType: "custom",
   });
 
@@ -72,17 +71,21 @@ export async function setupVite(app: Express, server: Server) {
 
 export function serveStatic(app: Express) {
   const distPath = path.resolve(__dirname, "public");
+  const clientDistPath = path.resolve(__dirname, "../client/dist");
 
-  if (!fs.existsSync(distPath)) {
+  // Try client/dist first (for Replit deployment), then fallback to dist/public
+  const staticPath = fs.existsSync(clientDistPath) ? clientDistPath : distPath;
+
+  if (!fs.existsSync(staticPath)) {
     throw new Error(
-      `Could not find the build directory: ${distPath}, make sure to build the client first`,
+      `Could not find the build directory: ${staticPath}, make sure to build the client first`,
     );
   }
 
-  app.use(express.static(distPath));
+  app.use(express.static(staticPath));
 
   // fall through to index.html if the file doesn't exist
   app.use("*", (_req, res) => {
-    res.sendFile(path.resolve(distPath, "index.html"));
+    res.sendFile(path.resolve(staticPath, "index.html"));
   });
 }
