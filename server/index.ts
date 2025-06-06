@@ -66,5 +66,5 @@ app.use((req, res, next) => {
   });
 
   // Export for Replit serverless functions
-  module.exports = app;
+  export default app;
 })();
