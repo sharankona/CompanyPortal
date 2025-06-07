@@ -1,0 +1,92 @@
+The error now is:
+ModuleNotFoundError: No module named 'companyportal'
+
+This means Gunicorn cannot find your Flask application module (companyportal). This typically happens due to one of these issues:
+
+Possible Causes & Solutions
+1. Incorrect Gunicorn Command
+The command gunicorn companyportal.wsgi assumes:
+
+There is a Python module named companyportal (folder with __init__.py).
+
+Inside it, there is a wsgi.py file with a Flask app object.
+
+If your structure is different, adjust the command.
+
+✅ Fix:
+
+Check your project structure and update the Gunicorn command in Render's dashboard (Start Command).
+
+Example structures and commands:
+
+Structure 1 (WSGI file inside companyportal):
+
+text
+├── companyportal/
+│   ├── __init__.py  # Contains `app = Flask(__name__)`
+│   ├── wsgi.py      # Contains `from companyportal import app`
+→ Command:
+
+text
+gunicorn companyportal.wsgi:app
+Structure 2 (WSGI file in root):
+
+text
+├── app.py           # Contains `app = Flask(__name__)`
+├── wsgi.py          # Contains `from app import app`
+→ Command:
+
+text
+gunicorn wsgi:app
+2. Missing __init__.py
+If companyportal is a folder but lacks __init__.py, Python won’t recognize it as a module.
+
+✅ Fix:
+
+Ensure companyportal/__init__.py exists.
+
+3. Incorrect PYTHONPATH
+If your companyportal module is not in the root, Gunicorn won’t find it.
+
+✅ Fix:
+
+Tell Gunicorn where to look by setting PYTHONPATH in the Render environment variables:
+
+text
+PYTHONPATH=/opt/render/project/src
+Or modify the command:
+
+text
+gunicorn --pythonpath /opt/render/project/src companyportal.wsgi:app
+4. wsgi.py Does Not Import app Correctly
+If wsgi.py does not properly import the Flask app, Gunicorn fails.
+
+✅ Fix:
+
+Ensure wsgi.py imports the Flask app correctly:
+
+python
+from companyportal import app  # Adjust based on your structure
+if __name__ == "__main__":
+    app.run()
+Steps to Debug
+Check your project structure (run tree locally or check in Render logs).
+
+Verify wsgi.py exists and imports app correctly.
+
+Update the Gunicorn command in Render (Settings → Start Command).
+
+Set PYTHONPATH if needed (Environment Variables in Render).
+
+Final Fix Example
+If your structure is:
+
+text
+├── companyportal/
+│   ├── __init__.py  # Contains `app = Flask(__name__)`
+│   ├── wsgi.py      # Contains `from companyportal import app`
+→ Use this Start Command in Render:
+
+bash
+gunicorn companyportal.wsgi:app
+If it still fails, share your project structure and wsgi.py content for further debugging. 🚀
