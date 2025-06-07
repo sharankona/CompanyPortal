@@ -77,6 +77,9 @@ def get_announcements():
         'title': ann.title,
         'content': ann.content,
         'createdBy': ann.created_by,
+        'createdAt': ann.created_at.isoformat(),
+        'isImportant': ann.is_important
+    } for ann in announcements])
 
 @bp.route('/api/financials/metrics')
 @login_required
