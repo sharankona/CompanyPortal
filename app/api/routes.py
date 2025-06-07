@@ -1,7 +1,7 @@
 from flask import jsonify, request
 from flask_login import login_required, current_user
 from app.api import bp
-from app.models import User, Document, Announcement
+from app.models import User, Document, Announcement, FinancialMetric, RevenueBreakdown, YearlyFinancial, InvestorEvent
 from app import db
 
 def check_admin():
@@ -161,11 +161,7 @@ def create_financial_metric():
         'createdAt': metric.created_at.isoformat() if metric.created_at else None,
     }), 201
 
-        'createdAt': ann.created_at.isoformat(),
-        'isImportant': ann.is_important
-    } for ann in announcements])
-
-@bp.route('/api/announcements', methods=['POST'])
+        @bp.route('/api/announcements', methods=['POST'])
 @login_required
 def create_announcement():
     if not check_admin():
